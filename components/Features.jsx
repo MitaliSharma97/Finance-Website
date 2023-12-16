@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
     return (
-        <section className="features">
+        <section className="features" id='features' >
             <div className="feature-heading">
                 <h1>Some ways our customers use <span>FinTech</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, repellendus!</p>

@@ -1,13 +1,10 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAtom } from '@fortawesome/free-solid-svg-icons'
 import FaceBook from '/svg/facebook.svg'
 
 const Footer = () => {
     const year = new Date().getFullYear()
-    const element = <FontAwesomeIcon icon={faAtom} />
     return (
-        <footer class="footer-area footer--light">
+        <footer class="footer-area footer--light" id='footer'>
             <div class="footer-big">
                 <div class="container">
                     <div class="row">
